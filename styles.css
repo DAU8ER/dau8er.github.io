@@ -82,7 +82,7 @@ spacer2 {
 
 
 a:hover {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .headline-highlight {
@@ -155,7 +155,7 @@ mbody {
 
     display: inline-block;
     color: rgb(0, 255, 0);
-
+    user-select: none;
 }
 
 .navbar modlookup {
@@ -171,6 +171,7 @@ td {
     display: inline-block;
     width: 300px;
     height: 50px;
+    user-select: none;
 }
 
 
