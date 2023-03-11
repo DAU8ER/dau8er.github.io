@@ -34,7 +34,7 @@ spacer {
 
 spacerm1 {
     display: inline-block;
-    height: 20pt;
+    height: 30pt;
 }
 
 spacerm2 {
@@ -68,9 +68,12 @@ botheadline {
     padding-top: 50px;
     font-size: 150%;
     color: rgb(0, 255, 0);
+    /* text-decoration: underline; */
+    user-select: none;
 }
 nw {
     font-size: 70%;
+    user-select: none;
 }
 nw2 {
     font-size: 150%;
@@ -92,8 +95,8 @@ nw2 {
 
 
 
-a:hover {
-    text-transform: capitalize;
+.navbar a:hover {
+    text-decoration: underline;
 }
 
 .headline-highlight {
@@ -170,13 +173,16 @@ mbody {
 }
 
 .navbar modlookup {
-    
+    font-size: 150%;
     text-transform: none;
-    color: rgb(0, 255, 0);
-    font-size: 40px;
+    /* color: rgb(0, 255, 0); */
+    /* font-size: 40px; */
     /* user-select: none; */
 }
 
+headlines2 {
+    text-decoration: underline;
+}
 
 td {
     display: inline-block;
@@ -200,6 +206,8 @@ b {
 }
 
 a {
+    font-size: 80%;
+    /* color: rgb(0, 255, 0); */
     color: rgb(163, 65, 255);
     width: 250px;
     text-decoration: none;
